@@ -1,0 +1,99 @@
+.school-card {
+    width: 400px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  
+  .school-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .school-content {
+    padding: 16px;
+    text-align: left;
+  }
+  
+  .school-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .duration {
+    font-size: 0.9rem;
+    color: gray;
+    margin-bottom: 30px;
+  }
+  
+  .programs-heading {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #6a0dad;
+  }
+  
+  .program-list {
+    font-size: 0.85rem;
+    color: #555;
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 30px;
+  }
+  
+  .program-list li {
+    margin-bottom: 5px;
+  }
+  
+  .buttons-pc {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .btn {
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 8px 12px;
+    margin: 0px 3px;
+    border-radius: 4px;
+    text-align: center;
+    width: 48%;
+    display: inline-block;
+  }
+  
+  .learn-more {
+    background: white;
+    color: #6a0dad;
+    border: 2px solid #6a0dad;
+  }
+  
+  .apply-now {
+    background: #6a0dad;
+    color: white;
+  }
+  
+  .learn-more:hover {
+    background: #6a0dad;
+    color: white;
+  }
+  
+  .apply-now:hover {
+    background: #4a077f;
+  }
+
+   .card-title {
+    text-transform: uppercase;
+    margin-top: 1%;
+    color: #4a4a4a;
+    font-weight: 800;
+    font-family: Arial, sans-serif;
+   }

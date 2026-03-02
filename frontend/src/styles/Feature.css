@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+
+.comparison-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  border-radius: 0px;
+}
+
+.comparison-content {
+  max-width: 600px;
+  text-align: center;
+  margin: 6%;
+}
+
+.comparison-content h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 23px;
+  text-align: left;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #333;
+}
+
+.comparison-content p {
+  font-size: 17px;
+  font-weight: lighter;
+  color: #555;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+}
+
+.compare-button {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  background-color: #222255b1;
+  color: white;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.compare-button:hover {
+  background-color: #4a2e23;
+}
+
+.comparison-image {
+  width: 20%;
+  padding-right: 10%;
+;
+}
+
+.comparison-image img {
+  width: 140%;
+  border-radius: 20%;
+}
+/* Support for alternating layout */
+.comparison-container.reverse {
+  flex-direction: row-reverse;
+}
+
+.comparison-container.reverse .comparison-content {
+  text-align: center;
+
+}
+
+.comparison-container.reverse .comparison-image {
+  text-align: center;
+}
