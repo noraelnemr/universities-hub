@@ -2,7 +2,16 @@
 
 A full-stack web platform that helps students explore Egyptian universities and majors with trusted program information, side-by-side comparisons, and a recommendation quiz. Built with the MERN stack for a responsive, scalable experience.
 
-> Originally developed during my BSc (2019–2024). Published and polished in 2026 with improved documentation and reproducibility.
+> Originally developed during my BSc (2025). Published and polished in 2026 with improved documentation and reproducibility.
+
+## Screenshots
+![HomePage](screenshots/HomePage.jpg)
+![Recommendation](screenshots/RecommendationQuizResult.jpg)
+![Comparison](screenshots/SideBySideUniversityComparisonLayout.jpg)
+![UniversityProfile](screenshots/UniversityProfilePage.jpg)
+## Demo Video
+🎥 Google Drive demo: 
+https://drive.google.com/file/d/10BtkUTu0gh8Qgtp3w-8KA-zUvyY9io6O/view?usp=sharing
 
 ## Features
 - Browse universities and academic programs with structured details
